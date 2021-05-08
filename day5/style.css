@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color:#34465c;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.logo img{
+    width: 90%;
+}
+.avartar{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.avatar img{
+   width: 25px;
+   height: 25px;
+   border-radius: 100%;
+   object-fit: cover;
+   margin-right: 5px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    margin: 0 20px;
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu-list li{
+    list-style-type: none;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+/* css cho menu cap 2 */
+.menu-list{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    /* top: 0px; */
+    padding-top: 20px;
+    /* cách lm cho đối tượng biến mất có 2 cách : (display:none) và (visibility:hidden)*/
+    display: none;
+}
+.sub-menu li{
+    background-color: gray;
+    padding: 5px 10px 5px 0px; 
+}
+.menu-list li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li:hover a{
+    color: red;
+}

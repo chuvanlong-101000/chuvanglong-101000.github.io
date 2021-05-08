@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Lazada</title>
+    <style>
+body{
+    font-size: 15px;
+}
+.menu ul{
+    background-color:white;
+    width: 300px;
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li{
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid greenyellow;
+    padding: 0 15px;
+    position: relative;
+}
+.menu >ul >li a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    display: block;
+}
+.menu >ul >li:hover{
+    background:violet;
+}
+
+.menu .sub-menu
+{
+    position: absolute;
+    left: 100%;
+    top:0;
+    display: none;
+}
+.menu >ul> li:hover .sub-menu{
+    display: block;
+    
+}
+#key{
+    display: none;
+}
+.menu> ul> li:hover #key{
+    display: block;
+}
+.root{
+    display: flex;
+    justify-content: space-between;
+}
+#key{
+    padding-top: 15px;
+}
+.menu> ul> li> ul> li{
+    width: auto;
+    position: relative;
+}
+.menu> ul> li> ul> li> ul{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+}
+.menu> ul> li> ul> li:hover{
+ background: violet;
+ 
+}
+.menu> ul> li> ul> li> ul> li{
+    width: auto;
+}
+.menu> ul> li> ul > li:hover >ul{
+    display: block;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+.menu> ul> li> ul>  li:hover #key{
+    display: block !important;
+}
+    </style>
+
+</head>
+    <body>
+        <div class="menu">
+           <ul>
+            <li>
+                <div class="root">
+                     <a href="#">Thiết bị điện tử</a>
+                    <i id="key" class="fas fa-angle-right"></i>
+                </div>
+            <ul class="sub-menu">
+                <li >
+                        <a href="#" > Điện thoại di động  </a>
+                        <i id="key"  class="fas fa-angle-right"></i>  
+                </li>
+                <li><a href="#" >Máy tính bảng </a></li>
+                <li>
+                    <div class="menu-item">
+                        <a href="#" >Lap top</a>
+                        <i id="key"  class="fas fa-angle-right"></i>
+                    </div> 
+                    <ul class="tool">               
+                        <li><a href="#">Laptop cơ bản</a></li>
+                        <li><a href="#">Laptop chơi game</a></li>
+                        <li><a href="#">Dòng 2 trong 1</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item">
+                        <a href="#" >Máy tính để bàn</a>
+                        <i id="key"  class="fas fa-angle-right"></i>
+                    </div>
+                    <ul class="tool">               
+                        <li><a href="#">Máy tính nguyên bộ</a></li>
+                        <li><a href="#">Máy tính để bànchơi game</a></li>
+                        <li><a href="#"> Máy tính tự ráp</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <div class="root">
+                   <a href="#">Phụ kiện điện tử</a>
+                   <i id="key" class="fas fa-angle-right"></i>
+                </div>
+
+                <ul class="sub-menu">
+                    <li>
+                        <div class="menu-item">
+                            <a href="#">Phụ kiện di động</a>
+                             <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Pin sạc dự phòng</a></li>
+                             <li><a href="#" >Cap</a></li>
+                            <li><a href="#" >Bộ sạc có dây</a></li>
+                            <li><a href="#" >Bộ sạc ko dây</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#">Thiết bị thông minh</a>
+                             <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Loa</a></li>
+                             <li><a href="#" >Mắt kính</a></li>
+                            <li><a href="#" >Công tắc</a></li>
+                            <li><a href="#" >Nhẫn</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#">Thiết bị số</a>
+                             <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Bút laser</a></li>
+                             <li><a href="#" >Bộ sạc đa năng </a></li>
+                            <li><a href="#" >Bảng vẽ </a></li>
+                            <li><a href="#" >Bộ đàm</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#">Phụ kiện mấy ảnh</a>
+                             <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Balo</a></li>
+                             <li><a href="#" >Pin</a></li>
+                            <li><a href="#" >Sạc pin</a></li>
+                            <li><a href="#" >Tay cầm chống rung</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="root">
+                    <a href="#">TV Thiết bị điện gia dụng</a>
+                    <i id="key" class="fas fa-angle-right"></i>
+                </div>
+           
+                <ul class="sub-menu">
+                    <li>
+                        <div class="menu-item">
+                            <a href="#">TV & Videos</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >TV thông minh</a></li>
+                             <li><a href="#" >TV kĩ thuật số</a></li>
+                            <li><a href="#" >TV Analog</a></li>
+                            <li><a href="#" >Video</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#" >Điện da dụng nhỏ</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Thiết bị làm mát</a></li>
+                             <li><a href="#" >Đồ da dụng nhà bếp</a></li>
+                            <li><a href="#" >Đồ da dụng nhỏ</a></li>
+                            <li><a href="#" >Phụ kiện dồ da dụng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#" >Điện da dụng lớn</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Máy lạnh </a></li>
+                             <li><a href="#" >Tủ lạnh</a></li>
+                            <li><a href="#" >Máy sấy </a></li>
+                            <li><a href="#" >Máy giặt</a></li>
+                        </ul>
+                    </li>
+                    <li>                       
+                            <a href="#">Phụ kiện TV</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="root">
+                    <a href="#">Sức khỏe& Làm đẹp</a>
+                    <i id="key" class="fas fa-angle-right"></i>
+                </div>
+            
+                <ul class="sub-menu">
+                    <li>
+                        <div class="menu-item">
+                            <a href="#" >Chăm sóc da</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#">Sữa rửa mắt</a></li>
+                            <li><a href="#">Nước hoa</a></li>
+                            <li><a href="#">Điều trị mụn</a></li>
+                            <li><a href="#">Dướng môi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                            <div class="menu-item">
+                                <a href="#" >Trang điểm</a>
+                                <i id="key"  class="fas fa-angle-right"></i>
+                            </div>
+                            <ul class="tool">
+                                <li><a href="#" >Mắt</a></li>
+                                <li><a href="#" >Mặt</a></li>
+                                <li><a href="#" >Môi</a></li>
+                                <li><a href="#" >Phấn má</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#" >Dụng cụ làm đẹp</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Máy giảm cân </a></li>
+                            <li><a href="#" >Dụng cụ Spa</a></li>
+                            <li><a href="#" >Chăm sóc mặt</a></li>
+                            <li><a href="#" >Dụng cụ chăm sóc cơ thể</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="#" >Chăm sóc cơ thể</a>
+                            <i id="key"  class="fas fa-angle-right"></i>
+                        </div>
+                        <ul class="tool">
+                            <li><a href="#" >Sữa tắm </a></li>
+                            <li><a href="#" >Tẩy tế bào chết</a></li>
+                            <li><a href="#" >Dưỡng thể</a></li>
+                            <li><a href="#" >Tẩy lông</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           </ul>
+        </div>
+    
+    </body>
+</html>
