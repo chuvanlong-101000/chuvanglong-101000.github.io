@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 960px;
+            height: 960px;
+            margin:auto ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;        
+        }
+        .row{
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            transition: all 0.5s;
+        }
+        img:hover{
+            transform: scale(1.2);
+        }
+        u:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style=" display: flex;justify-content: center;color: royalblue; font-size: 50px;"> THẾ GIỚI ĐỘNG VẬT</h1>
+    <div id="container">
+        <div class="row">
+            <div class="convat">
+                <img src="https://images.pexels.com/photos/146083/pexels-photo-146083.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="gấu mèo">
+                <p style="color: red;"><u>Gấu mèo</u></p>
+            </div>
+            <div class="convat">
+                <img src="https://images.pexels.com/photos/3493730/pexels-photo-3493730.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="Khỉ">
+                <p style="color: red;"><u>Khỉ</u></p>
+            </div>
+            <div class="convat">
+                <img src="https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+                    alt="Gấu trúc">
+                <p style="color: red;"><u>Gấu trúc</u></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="convat">
+                <img src=https://images.pexels.com/photos/1368521/pexels-photo-1368521.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+                    alt="Cừu">
+                <p style="color: red;"><u>Cừu</u></p>
+            </div>
+            <div class="convat">
+                <img src="https://images.pexels.com/photos/4755029/pexels-photo-4755029.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+                    alt="Cá heo">
+                <p style="color: red;"><u>Cá heo</u></p>
+            </div>
+            <div class="convat">
+                <img src="https://images.pexels.com/photos/4666747/pexels-photo-4666747.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+                    alt="Hải cẩu">
+                <p style="color: red;"><u>Hải cẩu</u></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

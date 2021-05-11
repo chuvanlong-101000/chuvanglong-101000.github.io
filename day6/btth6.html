@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 660px;
+            height: 660px;
+            margin:auto ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        }
+        .picture{
+            display: flex;
+            justify-content: space-evenly;
+            /* giữ ảnh hiển thị đúng tỷ lệ */
+            /* object-fit: cover; */
+            /* để thằng con ko vượt ra khỏi thằn cha */
+            /* overflow: hidden; */
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            transition: all 0.5s;
+        }
+        img:hover{
+            transform: scale(1.2);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/870711/pexels-photo-870711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/415708/pexels-photo-415708.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+        <div class="picture">
+            <img src="https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img src="https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+     </div> 
+</body>
+</html>

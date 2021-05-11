@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Form -->
+    <form action="#" method="POST">
+        <label for="Username">Username:</label>
+        <!-- bắt buộc dùng id -->
+        <input id="Username" type="text" name="Username"placeholder="text here ..."/>
+        </br>
+        </br>
+        <label for="Password">Password:</label>
+        <!-- bắt buộc dùng id -->
+        <input id="Password" type="Password" name="password"/> 
+        </br>
+        </br> 
+        <label for="">Gender:</label>
+        <!-- bắt buộc dùng id -->
+        <input id="male" type="radio" name="gender" value="made"/> <label for="male">Male</label>  
+        <input id="female" type="radio" name="gender" value="femalde"/> <label for="female">FeMale</label>
+        <input id="other" type="radio" name="gender" value="other"/> <label for="other">Other</label>    
+        </br>
+        </br>
+        <label for="">Favorites:</label>
+        <input id="read" type="checkbox" name="favourites" value="read"/><label for="read">read book</label>
+        <input id="listen" type="checkbox" name="favourites" value="listen"/><label for="listen">listen book</label>
+        </br>
+        </br>
+        <label for="">City:</label>
+        <select name="city" id="city">
+            <option value="ha-noi">Hanoi</option>
+            <option value="hue">Hue</option>
+            <option value="ca-mau">Ca mau</option>
+        </select>
+        </br>
+        </br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
