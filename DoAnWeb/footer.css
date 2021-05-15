@@ -1,7 +1,7 @@
 #footer{
     padding: 35px 0px 35px 0px;
     background-color: #e0e0e0;
-    margin-top: 2025px;
+    margin-top: 2035px;
 }
 #footer-container{
     width: 90%;
@@ -27,6 +27,10 @@ a:hover {
 #icons{
     list-style-type: none;
     line-height: 30px;
-    margin-left: 50px;
+    margin-left: 5%;
+    margin-right: 90%;
+    
 }
+
+
 
