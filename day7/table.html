@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            /* bóp 2 viền lại vs nhau */
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- để tạo hàng dùng thẻ tr -->
+        <!-- để tạo các cột dùng thẻ th -->
+        <tr>
+              <th> STT</th>
+              <th>Họ tên</th>
+              <th>Địa chỉ</th>
+              <th>Sô điện thoại</th>
+              <th> Ghi chú</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Chử Văn Long</td>
+            <td>Hưng Yên</td>
+            <td>123456.xxx</td>
+            <td> Ko có</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Văn A</td>
+            <td>Hà Nội</td>
+            <td>456789</td>
+            <td>Covid</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nguyễn tiến A</td>
+            <td rowspan="2">Tp Hồ Chi Minh</td>
+            <td>Không có số điện thoại</td>
+            <td>Covid</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nguyễn Văn C</td>
+            <!-- <td>TP Hồ Chí Minh</td> -->
+            <td>03.xxx.xxx</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
