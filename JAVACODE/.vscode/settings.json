@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "09_ObjectRelation",
         "08_Student_Class_Subject",
         "07_oop",
         "06_ontap",
@@ -8,6 +9,6 @@
         "03_ScanInput",
         "02_Method",
         "01_khoidong",
-        "09_ObjectRelation"
+        ""
     ]
 }
