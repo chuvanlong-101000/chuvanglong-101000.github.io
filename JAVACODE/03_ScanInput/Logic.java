@@ -1,5 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -140,6 +142,33 @@ public class Logic {
             }
         }
         input.close();
-    } 
+    }
+    
+    //kiểm tra email
+    public void Email(){
+        Scanner sc = new Scanner(System.in);
+        while(true){
+            System.out.println("Moi ban nhap Email: hoac an q de thoat:");
+            String input = sc.nextLine();
+            String regex="^[a-zA-Z]+[a-z0-9]*@{1}\\w+mail.com$";
+            Pattern p = Pattern.compile(regex);
+            Matcher m= p.matcher(input);
+            if(input.equals("q")){
+                break;
+            }
+            else {if (m.find()) {
+                System.out.println("Nice");
+                break;
+            }
+            else {
+                System.out.println("Vui long nhap lai");
+                break;
+            }
+            }
+            
+             
+        }
+        sc.close(); 
+    }
 }
 

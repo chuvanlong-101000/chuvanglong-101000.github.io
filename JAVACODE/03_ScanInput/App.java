@@ -5,5 +5,6 @@ public class App {
         //logic.guessNumber();
         //logic.guessBMI();
         //logic.soNguyenTo();
+        //logic.Email();
     }
 }
