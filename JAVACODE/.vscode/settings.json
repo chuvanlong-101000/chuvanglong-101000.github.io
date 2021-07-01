@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
+    
+        "10_Exceptions",
         "09_ObjectRelation",
         "08_Student_Class_Subject",
         "07_oop",
@@ -10,5 +12,7 @@
         "02_Method",
         "01_khoidong",
         ""
-    ]
+    ],
+    "java.dependency.packagePresentation": "hierarchical",
+    "maven.view": "flat"
 }
