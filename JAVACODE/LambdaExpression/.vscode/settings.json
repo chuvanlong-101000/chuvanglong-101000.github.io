@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "demo-lambda/src",
+        "demo-innerclass/src",
+        "demo-AnonymousClass/src"
+    ]
+}
