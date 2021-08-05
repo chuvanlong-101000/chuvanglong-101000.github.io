@@ -1,3 +1,5 @@
+package Array_String;
+
 public class _88_Merge_Sorted_Array {
     public static void main(String[] args) {
         int nums1[] = { 1, 2, 3, 0, 0, 0 };

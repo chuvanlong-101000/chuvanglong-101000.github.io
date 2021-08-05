@@ -1,3 +1,5 @@
+package Array_String.btvn;
+
 public class _485_Max_Consecutive_Ones {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;

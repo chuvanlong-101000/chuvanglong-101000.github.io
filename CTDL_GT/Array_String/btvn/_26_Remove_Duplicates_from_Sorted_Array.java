@@ -1,5 +1,6 @@
+package Array_String.btvn;
+
 public class _26_Remove_Duplicates_from_Sorted_Array {
-    
     public static int removeDuplicates(int[] nums) {
         int i = 0; // last processed item
         for (int j = 0; j < nums.length; j++) {

@@ -1,3 +1,5 @@
+package Array_String;
+
 public class Demo_String {
     public static void main(String[] args) {
         //String pool

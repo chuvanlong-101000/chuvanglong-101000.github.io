@@ -1,3 +1,5 @@
+package Array_String;
+
 public class Demo_Array {
     public static void main(String[] args) {
         int arr[] = new int[5]; //Khởi tạo mảng arr là mảng số nguyên, có kích thước là 5
@@ -20,5 +22,5 @@ public class Demo_Array {
         for (int i = 0; i < arr.length; i++) {
             System.out.printf("arr[%d] = %d\n", i, arr[i]);
         }
-    }    
+    }   
 }

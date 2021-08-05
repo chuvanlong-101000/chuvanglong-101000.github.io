@@ -1,3 +1,5 @@
+package Array_String;
+
 public class _1672_Richest_Customer_Wealth {
     public static void main(String[] args) {
         int arr[][] = {{1,5}, {7,3}, {3,5}};
