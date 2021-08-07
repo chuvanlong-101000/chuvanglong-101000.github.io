@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lesson3",
+            "request": "launch",
+            "mainClass": "Recursion.btvn.lesson3",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo_Recursion",
+            "request": "launch",
+            "mainClass": "Recursion.Demo_Recursion",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
             "name": "Launch _1051_Height_Checker",
             "request": "launch",
             "mainClass": "Sorting_Basic.btvn._1051_Height_Checker",
