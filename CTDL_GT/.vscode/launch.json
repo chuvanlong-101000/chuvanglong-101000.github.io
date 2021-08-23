@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _394_Decode_String",
+            "request": "launch",
+            "mainClass": "HackAthon._394_Decode_String",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch _724_Find_Pivot_Index",
+            "request": "launch",
+            "mainClass": "HackAthon._724_Find_Pivot_Index",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1598_Crawler_Log_Folder",
+            "request": "launch",
+            "mainClass": "HackAthon._1598_Crawler_Log_Folder",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1512_Number_of_Good_Pairs",
+            "request": "launch",
+            "mainClass": "HackAthon._1512_Number_of_Good_Pairs",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
             "name": "Launch lesson3",
             "request": "launch",
             "mainClass": "Recursion.btvn.lesson3",
