@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Tree.App",
+            "projectName": "CTDL_GT_237f16cf"
+        },
+        {
+            "type": "java",
             "name": "Launch MyHashMap",
             "request": "launch",
             "mainClass": "Hashing.MyHashMap",
