@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/")
 public class HomeController {
-    @GetMapping()
+    /*@GetMapping()
     public String showHomePage(Model model){
         model.addAttribute("name", "old");
         return "index";
@@ -23,5 +23,6 @@ public class HomeController {
         books.add(new Book("Doremon","Hoya"));
         model.addAttribute("books", books);
         return "book";
-    }
+    }*/
+
 }
