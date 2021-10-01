@@ -1,6 +1,6 @@
 Xây dựng database quản lí thư viện :
 Table 1 : Sách(id, tên, số trang, thể loại, tác giả, năm xuất bản, nhà xuất bản, tính trạng, vị trí)
-
+```sql
 CREATE DATABASE library
 
 CREATE TABLE book (
@@ -12,7 +12,7 @@ CREATE TABLE book (
     publisher CHAR(90),
     book_status CHAR(30) NOT NULL,
     locate CHAR(30) NOT NULL
-    )
+)
 
 Table 2 : Thể loại(id, tên thể loại)
 
