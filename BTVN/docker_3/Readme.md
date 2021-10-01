@@ -106,4 +106,3 @@ CREATE TABLE due_card(
     FOREIGN KEY(card_id) REFERENCES call_card(card_id)
 )
 
-![anh3](anh3.png)
