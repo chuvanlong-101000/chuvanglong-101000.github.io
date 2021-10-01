@@ -1,8 +1,8 @@
 Xây dựng database quản lí thư viện :
 Table 1 : Sách(id, tên, số trang, thể loại, tác giả, năm xuất bản, nhà xuất bản, tính trạng, vị trí)
-```sql
-CREATE DATABASE library
 
+CREATE DATABASE library
+```sql
 CREATE TABLE book (
     book_id INT PRIMARY KEY,
     title CHAR(90) NOT NULL,
@@ -106,4 +106,4 @@ CREATE TABLE due_card(
     FOREIGN KEY(card_id) REFERENCES call_card(card_id)
 )
 
-![anh](anh.png)
+![anh3](anh3.png)
